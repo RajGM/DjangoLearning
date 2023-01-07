@@ -56,3 +56,8 @@ a {
     float: left;
     border-right: 2px dashed black;
 }
+
+.navbar{
+    padding: 0px;
+  }
+  
