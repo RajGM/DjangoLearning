@@ -1,0 +1,12 @@
+{%extends 'base.html' %}
+{% block content%}
+<h1>Testing pages</h1>
+        <p>This is a simple test</p>
+        <p>
+            Name: {% name.upper() %} </p> <br/>
+            Address: {{address}}
+            {%if True%}
+                Hello TRUE
+            {% end if%}
+        </p>
+{% endblock %}
