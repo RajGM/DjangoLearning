@@ -23,7 +23,8 @@ body {
 }
 #footer {
   width: 100%;
-  background-color: #92cdc7;
+  padding-left: 10px;
+  float: left;
 }
 #application_title {
   display: inline;
@@ -45,6 +46,13 @@ a {
 .nav_link {
   color: white;
 }
-#content {
+.content {
   padding-left: 10px;
+  float: left;
+}
+#gene_list{
+    padding-left: 10px;
+    padding-right: 20px;
+    float: left;
+    border-right: 2px dashed black;
 }

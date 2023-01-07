@@ -1,6 +1,8 @@
-<html>
-  <head> </head>
-  <body>
+{% extends "./base.html" %}
+
+{% load bootstrap4 %}
+{% block content %}
+
     <h1>Filtered List: {{type}}</h1>
     <table>
       <tr>
@@ -12,5 +14,5 @@
       </tr>
       {% endfor %}
     </table>
-  </body>
-</html>
+
+  {% endblock %}
