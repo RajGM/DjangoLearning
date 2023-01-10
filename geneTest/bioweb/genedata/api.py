@@ -29,8 +29,8 @@ def gene_detail(request, pk):
 
 @api_view(['GET'])
 def genes_list(request):
-    if request.method == 'GET':
-        gene = Gene.objects.all()
-        serializer = genes_list(gene, many=True)
-        return Response(serializer.data)
+    print("LOG HERE MORE")
+    gene = Gene.objects.all()
+    serializer = genes_list(gene, many=True)
+    return Response(serializer.data)
 

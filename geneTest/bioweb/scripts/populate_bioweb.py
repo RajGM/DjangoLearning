@@ -8,6 +8,9 @@ sys.path.append("/django/geneTest/bioweb")
 os.environ.setdefault('DJANGO_SETTINGS_MODULE',
                       'bioweb.settings')
 django.setup()
+
+from genedata.models import *
+
 data_file = '/django/geneTest/bioweb/exampleData.csv'
 genes = defaultdict(list)
 sequencing = set()
